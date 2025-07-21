@@ -4,7 +4,7 @@ This section provides a quick overview for working with the SfEffectsView for .N
 
 ## Creating an application using the .NET MAUI Effects View
  1. Create a new .NET MAUI application in Visual Studio.
- 2. Syncfusion .NET MAUI components are available on [nuget.org](https://www.nuget.org/). To add SfBadgeView to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Core and then install it.
+ 2. Syncfusion .NET MAUI components are available on [nuget.org](https://www.nuget.org/). To add SfEffectsView to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Core and then install it.
 
 ## Register the handler
 
@@ -15,7 +15,7 @@ To use this control inside an application, you must register the handler for Syn
 using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Core.Hosting;
 
-namespace BadgeViewGettingStarted
+namespace EffectsViewGettingStarted
 {
     public static class MauiProgram
     {
@@ -49,7 +49,7 @@ namespace BadgeViewGettingStarted
 ```xml
 <ContentPage   
     . . .
-    xmlns:badgeView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core">
+    xmlns:effectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core">
 
    <effectsView:SfEffectsView /> 
 </ContentPage>
